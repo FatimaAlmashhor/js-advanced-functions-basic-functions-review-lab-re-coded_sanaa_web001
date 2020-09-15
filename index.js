@@ -71,6 +71,7 @@ let f = wrapAdjective()('a hard worker');
 let x = wrapAdjective('||')('a dedicated programmer');
 
 
+
     //   it("Given 13, returns 4 after being acted on by several functions", function() {
     //     let message = "13, multiplied by 2, added to 1000 and then modulo 7 is 4. Apply each function in the Array of functions on the given base (13) OR on the result of the use of the previous function to get this result"
     //     arrayOfTransforms = [
