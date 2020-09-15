@@ -10,7 +10,7 @@ saturdayFun("bathe my dog");
 
 function mondayWork(activity = 'go to the office'){
   return `This Monday, I will ${activity}.`;
-  
+
 }
 mondayWork();
 mondayWork("work from home");
@@ -19,20 +19,20 @@ mondayWork("work from home");
 
 function wrapAdjective(x ='*') {
      let result = function (){
-    if(x === '*') 
+    if(x === '*')
       return `${x}a hard worker${x}`;
-   else 
+   else
     return `${x}a dedicated programmer${x}`;
   }
   let emphatic = `You are ${result(x)}` ;
- 
+
  return emphatic
 }
 wrapAdjective();
 wrapAdjective('||');
 
 
-    
+
   //   it("when initialized with '*' creates a function that, when called, wraps an adjective in a highlight", function() {
   //     let result = wrapAdjective()
   //     let emphatic = result("a hard worker")
@@ -51,14 +51,14 @@ let Calculator = {
   subtract: function(x,y){return x-y},
   multiply:function(x,y){return x*y},
   divide:function(x,y){return x/y},
-  
+
 }
 Calculator.add(1,3);
 Calculator.subtract(1,3) ;
 Calculator.multiply(1,3)
 Calculator.divide(10,5)
- 
-  
+
+
 
 function actionApplyer(a, arr){
   if(a === 0)
@@ -70,10 +70,10 @@ arrayOfTransforms = [
           function(a){ return a + 1000},
           function(a){ return a % 7 }
         ];
-actionApplyer(0 ,[])  ;  
+actionApplyer(0 ,[])  ;
  actionApplyer(13, arrayOfTransforms);
 
-  
+
 
 
     //   it("Given 13, returns 4 after being acted on by several functions", function() {
