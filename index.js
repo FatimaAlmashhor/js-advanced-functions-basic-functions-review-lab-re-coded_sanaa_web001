@@ -63,7 +63,7 @@ actionApplyer(0 ,[])  ;
 
  function wrapAdjective(x = '*') {
    return function ( f = 'special') {
-     console.log( `You are ${x + f + x}!` );
+     return `You are ${x + f + x}!` ;
 
    }
  }
