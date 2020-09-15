@@ -69,7 +69,7 @@ actionApplyer(0 ,[])  ;
      result =  `${x}a dedicated programmer${x}`;
    let emphatic = function ( x = 'special') {
      return `You are ${result(x)}` ;
-     
+
    }
 
   return emphatic
