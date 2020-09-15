@@ -63,7 +63,7 @@ actionApplyer(0 ,[])  ;
 
  function wrapAdjective(x ='*') {
    let emphatic = function ( f = 'special') {
-     return `You are ${x + f + x}` ;
+     console.log( `You are ${x + f + x}` );
 
    }
  }
