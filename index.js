@@ -68,14 +68,13 @@ actionApplyer(0 ,[])  ;
     else
      result =  `${x}a dedicated programmer${x}`;
    let emphatic = function ( x = 'special') {
+     console.log(result);
      return `You are ${result(x)}` ;
 
    }
-
-  return emphatic
  }
- wrapAdjective();
- wrapAdjective('||');
+let f = wrapAdjective()();
+ wrapAdjective('||')();
 
 
     //   it("Given 13, returns 4 after being acted on by several functions", function() {
