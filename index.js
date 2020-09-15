@@ -17,18 +17,6 @@ mondayWork("work from home");
 
 
 
-// function wrapAdjective(x ='*') {
-//      let result  ;
-//     if(x === '*')
-//       result =  `${x}a hard worker${x}`;
-//    else
-//     result =  `${x}a dedicated programmer${x}`;
-//   let emphatic = `You are ${result(x)}` ;
-//
-//  return emphatic
-// }
-// wrapAdjective();
-// wrapAdjective('||');
 
 
 
@@ -73,6 +61,18 @@ actionApplyer(0 ,[])  ;
  actionApplyer(13, arrayOfTransforms);
 
 
+ function wrapAdjective(x ='*') {
+      let result  ;
+     if(x === '*')
+       result =  `${x}a hard worker${x}`;
+    else
+     result =  `${x}a dedicated programmer${x}`;
+   let emphatic = `You are ${result(x)}` ;
+ 
+  return emphatic
+ }
+ wrapAdjective();
+ wrapAdjective('||');
 
 
     //   it("Given 13, returns 4 after being acted on by several functions", function() {
