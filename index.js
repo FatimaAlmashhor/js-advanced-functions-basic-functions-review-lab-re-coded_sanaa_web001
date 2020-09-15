@@ -18,7 +18,7 @@ mondayWork("work from home");
 
 
 function wrapAdjective(x ='*') {
-    function result(){
+     let result = function (){
     if(x === '*') 
       return `${x}a hard worker${x}`;
    else 
