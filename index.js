@@ -61,14 +61,14 @@ actionApplyer(0 ,[])  ;
  actionApplyer(13, arrayOfTransforms);
 
 
-//  function wrapAdjective(x ='*') {
-//    let emphatic = function ( f = 'special') {
-//      console.log( `You are ${x + f + x}` );
-//
-//    }
-//  }
-// let f = wrapAdjective()('a hard worker');
-// let x = wrapAdjective('||')('a dedicated programmer');
+ function wrapAdjective(x ='*') {
+   let emphatic = function ( f = 'special') {
+     console.log( `You are ${x + f + x}` );
+
+   }
+ }
+let f = wrapAdjective()('a hard worker');
+let x = wrapAdjective('||')('a dedicated programmer');
 
 
     //   it("Given 13, returns 4 after being acted on by several functions", function() {
