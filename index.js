@@ -62,19 +62,13 @@ actionApplyer(0 ,[])  ;
 
 
  function wrapAdjective(x ='*') {
-      let result  ;
-     if(x === '*')
-       result =  `${x}a hard worker${x}`;
-    else
-     result =  `${x}a dedicated programmer${x}`;
-   let emphatic = function ( x = 'special') {
-     console.log(result);
-     return `You are ${result(x)}` ;
+   let emphatic = function ( f = 'special') {
+     return `You are ${f}` ;
 
    }
  }
-let f = wrapAdjective()();
-let x = wrapAdjective('||')();
+let f = wrapAdjective()('a hard worker');
+let x = wrapAdjective('||')('a dedicated programmer');
 
 
     //   it("Given 13, returns 4 after being acted on by several functions", function() {
