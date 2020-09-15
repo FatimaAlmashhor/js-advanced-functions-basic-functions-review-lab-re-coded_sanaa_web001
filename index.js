@@ -67,7 +67,10 @@ actionApplyer(0 ,[])  ;
        result =  `${x}a hard worker${x}`;
     else
      result =  `${x}a dedicated programmer${x}`;
-   let emphatic = `You are ${result(x)}` ;
+   let emphatic = function ( x = 'special') {
+     return `You are ${result(x)}` ;
+     
+   }
 
   return emphatic
  }
