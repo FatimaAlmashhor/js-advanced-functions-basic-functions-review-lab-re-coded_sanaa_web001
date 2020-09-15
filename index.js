@@ -24,7 +24,7 @@ mondayWork("work from home");
 //    else
 //     result =  `${x}a dedicated programmer${x}`;
 //   let emphatic = `You are ${result(x)}` ;
-// 
+//
 //  return emphatic
 // }
 // wrapAdjective();
