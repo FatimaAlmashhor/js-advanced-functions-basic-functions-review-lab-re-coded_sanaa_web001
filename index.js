@@ -74,7 +74,7 @@ actionApplyer(0 ,[])  ;
    }
  }
 let f = wrapAdjective()();
- wrapAdjective('||')();
+let f = wrapAdjective('||')();
 
 
     //   it("Given 13, returns 4 after being acted on by several functions", function() {
