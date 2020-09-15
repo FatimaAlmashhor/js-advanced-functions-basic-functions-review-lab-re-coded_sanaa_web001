@@ -68,7 +68,7 @@ actionApplyer(0 ,[])  ;
     else
      result =  `${x}a dedicated programmer${x}`;
    let emphatic = `You are ${result(x)}` ;
- 
+
   return emphatic
  }
  wrapAdjective();
