@@ -17,18 +17,18 @@ mondayWork("work from home");
 
 
 
-function wrapAdjective(x ='*') {
-     let result  ;
-    if(x === '*')
-      result =  `${x}a hard worker${x}`;
-   else
-    result =  `${x}a dedicated programmer${x}`;
-  let emphatic = `You are ${result(x)}` ;
-
- return emphatic
-}
-wrapAdjective();
-wrapAdjective('||');
+// function wrapAdjective(x ='*') {
+//      let result  ;
+//     if(x === '*')
+//       result =  `${x}a hard worker${x}`;
+//    else
+//     result =  `${x}a dedicated programmer${x}`;
+//   let emphatic = `You are ${result(x)}` ;
+// 
+//  return emphatic
+// }
+// wrapAdjective();
+// wrapAdjective('||');
 
 
 
